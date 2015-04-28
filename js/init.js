@@ -1,4 +1,3 @@
-
 (function($) {
 
 	skel.init({
@@ -15,13 +14,13 @@
 
 		var	$window = $(window),
 			$body = $('body');
-			// Disabling animation utill page is loaded
+
 			$body.addClass('is-loading');
+
 			$window.on('load', function() {
 				$body.removeClass('is-loading');
 			});
 
-		// Forms for IE<10
 			var $form = $('form');
 			if ($form.length > 0) {
 
@@ -32,11 +31,8 @@
 
 			}
 
-		// CSS polyfills for IE<9
 			if (skel.vars.IEVersion < 9)
 				$(':last-child').addClass('last-child');
-
-		// Scrolly.
 			$window.load(function() {
 
 				var x = parseInt($('.wrapper').first().css('padding-top')) - 15;

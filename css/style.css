@@ -541,6 +541,10 @@
 			text-align: center;
 		}
 
+/*********************************************************************************/
+/* Icons                                                                         */
+/*********************************************************************************/
+
 	.icon {
 		text-decoration: none;
 	}
@@ -573,7 +577,6 @@
 			{
 				font-size: 6em;
 			}
-
 
 	.wrapper
 	{
@@ -637,7 +640,7 @@
 			{
 				background: #252525;
 			}
-
+		
 	#nav
 	{
 		background-color: #282828;
@@ -687,7 +690,6 @@
 				border-top: solid 0.6em #282828;
 			}
 			
-/* Articles                                                                      */
 
 	#top
 	{
@@ -711,8 +713,6 @@
 			{
 				color: inherit;
 			}
-
-/* Copyright                                                                     */
 
 	#copyright
 	{

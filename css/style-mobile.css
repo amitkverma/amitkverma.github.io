@@ -45,16 +45,12 @@
 	{
 		margin: 1.5em 0 2em 0;
 	}
-
-	/* Section/Article */
-	
 		section,
 		article
 		{
 			clear: both;
 		}
 
-	/* Button */
 
 		input[type="button"],
 		input[type="submit"],
@@ -136,7 +132,6 @@
 				width: auto;
 			}
 
-/* Wrappers                                                                      */
 
 	.wrapper
 	{
@@ -149,8 +144,6 @@
 			padding-top: 5em;
 		}
 	
-/* Nav                                                                           */
-
 	#nav
 	{
 	}
@@ -160,8 +153,6 @@
 			padding: 0.5em;
 		}
 		
-/* Articles                                                                      */
-
 	#top
 	{
 	}
@@ -182,8 +173,6 @@
 			margin: 0;
 		}
 		
-/* Copyright                                                                     */
-
 	#copyright
 	{
 		font-size: 1em;
